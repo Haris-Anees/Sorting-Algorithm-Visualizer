@@ -1,0 +1,82 @@
+.spacing {
+  margin: auto;
+  white-space: nowrap;
+}
+
+.number-row {
+  color: black;
+  padding: 5px;
+  font-family: monospace;
+  display: inline-block;
+}
+
+.individual-number {
+  background-color: pink;
+  padding: 2px;
+  width: 5px;
+  border: 1.5px solid black;
+}
+
+.button {
+  border: 2px solid gold;
+  background-color: black;
+  color: white;
+  margin: 4px;
+}
+
+.buttonAlign {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sortingButtonsAlign {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonName {
+  margin: 7px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  margin-bottom: 50px;
+  border-bottom: 10px solid gold;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+
+.title {
+  display: flex;
+  margin: 2%;
+  margin-left: 2%;
+}
+
+.graphGrid {
+  display: flex;
+  border: 3px solid black;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
