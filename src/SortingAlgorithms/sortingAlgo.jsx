@@ -8,8 +8,8 @@ export default class SortingAlgo extends React.Component {
     this.state = {
       numbers: [], //Containg the values of the chart
       isSorting: false, //If the graph is currrently sorting
-      coloredBar1: false,
-      coloredBar2: false,
+      coloredBar1: false, //The first current value sorting
+      coloredBar2: false, //The second current value soring
       isAscending: true, // True meaning ascending, false meaning descending
     };
   }
