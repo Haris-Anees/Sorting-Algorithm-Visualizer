@@ -15,7 +15,7 @@ export default class SortingAlgo extends React.Component {
   }
 
   /**
-   * First rendering the graph onto the page
+   * Rendering the graph onto the page initially
    */
   componentDidMount() {
     this.resetNumbers();
